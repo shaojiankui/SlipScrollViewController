@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2749EBF1A69F5FC00E182FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2749EBE1A69F5FC00E182FA /* main.m */; };
+		A2749EC21A69F5FC00E182FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2749EC11A69F5FC00E182FA /* AppDelegate.m */; };
+		A2749ECA1A69F5FC00E182FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2749EC91A69F5FC00E182FA /* Images.xcassets */; };
+		A2749ECD1A69F5FC00E182FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2749ECB1A69F5FC00E182FA /* LaunchScreen.xib */; };
+		A2749ED91A69F5FC00E182FA /* SlipScrollViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2749ED81A69F5FC00E182FA /* SlipScrollViewControllerTests.m */; };
+		A2749EE51A69F60C00E182FA /* SlipScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2749EE31A69F60C00E182FA /* SlipScrollViewController.m */; };
+		A2749EE61A69F60C00E182FA /* SlipScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2749EE41A69F60C00E182FA /* SlipScrollViewController.xib */; };
+		A2749EE81A69F68E00E182FA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A2749EE71A69F68E00E182FA /* bg.png */; };
+		A2749EEF1A69F69800E182FA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2749EEA1A69F69800E182FA /* LeftViewController.m */; };
+		A2749EF01A69F69800E182FA /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2749EEB1A69F69800E182FA /* LeftViewController.xib */; };
+		A2749EF11A69F69800E182FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2749EED1A69F69800E182FA /* MainViewController.m */; };
+		A2749EF21A69F69800E182FA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2749EEE1A69F69800E182FA /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2749ED31A69F5FC00E182FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2749EB11A69F5FC00E182FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2749EB81A69F5FC00E182FA;
+			remoteInfo = SlipScrollViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2749EB91A69F5FC00E182FA /* SlipScrollViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipScrollViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2749EBD1A69F5FC00E182FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2749EBE1A69F5FC00E182FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2749EC01A69F5FC00E182FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2749EC11A69F5FC00E182FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2749EC91A69F5FC00E182FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2749ECC1A69F5FC00E182FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2749ED21A69F5FC00E182FA /* SlipScrollViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipScrollViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2749ED71A69F5FC00E182FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2749ED81A69F5FC00E182FA /* SlipScrollViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlipScrollViewControllerTests.m; sourceTree = "<group>"; };
+		A2749EE21A69F60C00E182FA /* SlipScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipScrollViewController.h; sourceTree = "<group>"; };
+		A2749EE31A69F60C00E182FA /* SlipScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlipScrollViewController.m; sourceTree = "<group>"; };
+		A2749EE41A69F60C00E182FA /* SlipScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlipScrollViewController.xib; sourceTree = "<group>"; };
+		A2749EE71A69F68E00E182FA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		A2749EE91A69F69800E182FA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		A2749EEA1A69F69800E182FA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		A2749EEB1A69F69800E182FA /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		A2749EEC1A69F69800E182FA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A2749EED1A69F69800E182FA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A2749EEE1A69F69800E182FA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2749EB61A69F5FC00E182FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2749ECF1A69F5FC00E182FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2749EB01A69F5FC00E182FA = {
+			isa = PBXGroup;
+			children = (
+				A2749EBB1A69F5FC00E182FA /* SlipScrollViewController */,
+				A2749ED51A69F5FC00E182FA /* SlipScrollViewControllerTests */,
+				A2749EBA1A69F5FC00E182FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2749EBA1A69F5FC00E182FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2749EB91A69F5FC00E182FA /* SlipScrollViewController.app */,
+				A2749ED21A69F5FC00E182FA /* SlipScrollViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2749EBB1A69F5FC00E182FA /* SlipScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2749EE71A69F68E00E182FA /* bg.png */,
+				A2749EE21A69F60C00E182FA /* SlipScrollViewController.h */,
+				A2749EE31A69F60C00E182FA /* SlipScrollViewController.m */,
+				A2749EE41A69F60C00E182FA /* SlipScrollViewController.xib */,
+				A2749EC01A69F5FC00E182FA /* AppDelegate.h */,
+				A2749EC11A69F5FC00E182FA /* AppDelegate.m */,
+				A2749EE91A69F69800E182FA /* LeftViewController.h */,
+				A2749EEA1A69F69800E182FA /* LeftViewController.m */,
+				A2749EEB1A69F69800E182FA /* LeftViewController.xib */,
+				A2749EEC1A69F69800E182FA /* MainViewController.h */,
+				A2749EED1A69F69800E182FA /* MainViewController.m */,
+				A2749EEE1A69F69800E182FA /* MainViewController.xib */,
+				A2749EC91A69F5FC00E182FA /* Images.xcassets */,
+				A2749ECB1A69F5FC00E182FA /* LaunchScreen.xib */,
+				A2749EBC1A69F5FC00E182FA /* Supporting Files */,
+			);
+			path = SlipScrollViewController;
+			sourceTree = "<group>";
+		};
+		A2749EBC1A69F5FC00E182FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2749EBD1A69F5FC00E182FA /* Info.plist */,
+				A2749EBE1A69F5FC00E182FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2749ED51A69F5FC00E182FA /* SlipScrollViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2749ED81A69F5FC00E182FA /* SlipScrollViewControllerTests.m */,
+				A2749ED61A69F5FC00E182FA /* Supporting Files */,
+			);
+			path = SlipScrollViewControllerTests;
+			sourceTree = "<group>";
+		};
+		A2749ED61A69F5FC00E182FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2749ED71A69F5FC00E182FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2749EB81A69F5FC00E182FA /* SlipScrollViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2749EDC1A69F5FC00E182FA /* Build configuration list for PBXNativeTarget "SlipScrollViewController" */;
+			buildPhases = (
+				A2749EB51A69F5FC00E182FA /* Sources */,
+				A2749EB61A69F5FC00E182FA /* Frameworks */,
+				A2749EB71A69F5FC00E182FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlipScrollViewController;
+			productName = SlipScrollViewController;
+			productReference = A2749EB91A69F5FC00E182FA /* SlipScrollViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2749ED11A69F5FC00E182FA /* SlipScrollViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2749EDF1A69F5FC00E182FA /* Build configuration list for PBXNativeTarget "SlipScrollViewControllerTests" */;
+			buildPhases = (
+				A2749ECE1A69F5FC00E182FA /* Sources */,
+				A2749ECF1A69F5FC00E182FA /* Frameworks */,
+				A2749ED01A69F5FC00E182FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2749ED41A69F5FC00E182FA /* PBXTargetDependency */,
+			);
+			name = SlipScrollViewControllerTests;
+			productName = SlipScrollViewControllerTests;
+			productReference = A2749ED21A69F5FC00E182FA /* SlipScrollViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2749EB11A69F5FC00E182FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					A2749EB81A69F5FC00E182FA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A2749ED11A69F5FC00E182FA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A2749EB81A69F5FC00E182FA;
+					};
+				};
+			};
+			buildConfigurationList = A2749EB41A69F5FC00E182FA /* Build configuration list for PBXProject "SlipScrollViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2749EB01A69F5FC00E182FA;
+			productRefGroup = A2749EBA1A69F5FC00E182FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2749EB81A69F5FC00E182FA /* SlipScrollViewController */,
+				A2749ED11A69F5FC00E182FA /* SlipScrollViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2749EB71A69F5FC00E182FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2749ECD1A69F5FC00E182FA /* LaunchScreen.xib in Resources */,
+				A2749EF21A69F69800E182FA /* MainViewController.xib in Resources */,
+				A2749ECA1A69F5FC00E182FA /* Images.xcassets in Resources */,
+				A2749EF01A69F69800E182FA /* LeftViewController.xib in Resources */,
+				A2749EE81A69F68E00E182FA /* bg.png in Resources */,
+				A2749EE61A69F60C00E182FA /* SlipScrollViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2749ED01A69F5FC00E182FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2749EB51A69F5FC00E182FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2749EF11A69F69800E182FA /* MainViewController.m in Sources */,
+				A2749EEF1A69F69800E182FA /* LeftViewController.m in Sources */,
+				A2749EC21A69F5FC00E182FA /* AppDelegate.m in Sources */,
+				A2749EBF1A69F5FC00E182FA /* main.m in Sources */,
+				A2749EE51A69F60C00E182FA /* SlipScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2749ECE1A69F5FC00E182FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2749ED91A69F5FC00E182FA /* SlipScrollViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2749ED41A69F5FC00E182FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2749EB81A69F5FC00E182FA /* SlipScrollViewController */;
+			targetProxy = A2749ED31A69F5FC00E182FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2749ECB1A69F5FC00E182FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2749ECC1A69F5FC00E182FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2749EDA1A69F5FC00E182FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2749EDB1A69F5FC00E182FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2749EDD1A69F5FC00E182FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlipScrollViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2749EDE1A69F5FC00E182FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlipScrollViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2749EE01A69F5FC00E182FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlipScrollViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlipScrollViewController.app/SlipScrollViewController";
+			};
+			name = Debug;
+		};
+		A2749EE11A69F5FC00E182FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlipScrollViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlipScrollViewController.app/SlipScrollViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2749EB41A69F5FC00E182FA /* Build configuration list for PBXProject "SlipScrollViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2749EDA1A69F5FC00E182FA /* Debug */,
+				A2749EDB1A69F5FC00E182FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2749EDC1A69F5FC00E182FA /* Build configuration list for PBXNativeTarget "SlipScrollViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2749EDD1A69F5FC00E182FA /* Debug */,
+				A2749EDE1A69F5FC00E182FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2749EDF1A69F5FC00E182FA /* Build configuration list for PBXNativeTarget "SlipScrollViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2749EE01A69F5FC00E182FA /* Debug */,
+				A2749EE11A69F5FC00E182FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2749EB11A69F5FC00E182FA /* Project object */;
+}
